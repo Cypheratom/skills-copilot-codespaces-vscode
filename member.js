@@ -1,12 +1,12 @@
-function skillMembers() {
-  return {
-    restrict: 'E',
-    templateUrl: 'views/skill-members.html',
-    controller: 'SkillMembersController',
-    controlerAs: 'vm',
-    bindToController: true,
-    scope: {
-      members: '='
-    }
-  };
+function skilsMember() {
+    return {
+        restrict: 'E',
+        templateUrl: 'modules/skills//views/member.html',
+        controller : 'skiilsMemberController',
+        controllerAs : 'vm',
+        bindToController : true,
+        scope: {
+            member: '='
+        }
+    };  
 }
